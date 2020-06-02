@@ -1,0 +1,477 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Meet The Team</title>
+<link type = "text/css"rel = "stylesheet" href = .css"/>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: segoe ui;
+  font-size: 100%;
+  height: 100%;
+}
+
+/* ****************************************************
+                        CONTENEDOR
+******************************************************/
+.container {
+  
+  background: linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)),url("ima/im3.jpg");
+  height: 100vh;
+	background-size: cover;
+	background-position: center;
+  min-height: 100%;
+  overflow: auto;
+}
+
+/* ENLACES */
+a {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  transition: background-color .16s ease-in;
+}
+
+a:hover {
+  background-color: black;
+}
+
+/* **************************************************
+        BARRA DE NAVEGACION Y MENU NORMAL
+****************************************************/
+/* Barra de navegacion (contiene al nav mini menu) */
+.navbar-menu {
+  background-color: black;
+  margin: 2% auto;
+  max-width: 1400px;
+  width: calc(100%);
+ 
+}
+
+.navbar-menu .menu {
+  display: block;
+  text-align: ;
+}
+
+.navbar-menu .menu li {
+  display: inline-block;
+}
+
+.navbar-menu .menu li:hover > .submenu {
+  display: block;
+  -webkit-animation-name: showSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+.navbar-menu .menu li ul {
+  background-color: ;
+  display: none;
+  position: absolute;
+}
+
+.navbar-menu .menu li ul li {
+  display: block;
+}
+
+.navbar-menu .menu li ul li a:active {
+  -webkit-animation-name: hideSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+/******************************************************
+                        MINI MENU
+******************************************************/
+/* Mini menu */
+.navbar-mini-menu {
+  background-color: #;
+  display: none;
+ 
+}
+
+.navbar-mini-menu .menu-select {
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.navbar-mini-menu .menu-select .btn-select {
+  background: url("icon.png") no-repeat;
+  cursor: pointer;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  right: 10px;
+  top: 95px;
+}
+
+.navbar-mini-menu .mini-menu-options {
+  display: block;
+}
+
+.navbar-mini-menu .mini-menu-options li {
+  display: block;
+}
+
+.navbar-mini-menu .mini-menu-options li .submenu {
+  display: none;
+}
+
+.navbar-mini-menu .mini-menu-options li:focus {
+  outline: 0;
+}
+
+.navbar-mini-menu .mini-menu-options li:focus > .submenu {
+  display: block;
+  -webkit-animation-name: showSubMenu;
+  -webkit-animation-duration: .4s;
+}
+
+.navbar-mini-menu .mini-menu-options li a {
+  display: block;
+  padding: 1rem 1.5rem;
+}
+
+/* ***************************************************
+                      ANIMACIONES
+*****************************************************/
+@-webkit-keyframes showSubMenu {
+    0% {
+      transform: scale(0,0);
+    }
+  100% {
+    transform: scale(1,1);
+  }
+}
+
+@-webkit-keyframes hideSubMenu {
+  0% {
+    transform: scale(1,1);
+  }
+  100% {
+    transform: scale(0,0);
+  }
+}
+
+/*****************************************************                       MEDIAQUERIES
+*****************************************************/
+@media screen and (max-width: 750px) {
+  /* Elimina los margenes al nav */
+  .navbar-menu {
+    margin: 0;
+  }
+  
+  /* Esconde el menu normal */
+  .navbar-menu .menu {
+    display: none;
+  }
+  
+  /* Muestra el mini menu */
+  .navbar-mini-menu {
+    display: block;
+  }
+  
+  /* Esconde la lista del mini menu */
+  .navbar-mini-menu .mini-menu-options {
+    display: none;
+  }
+  
+}
+
+*/animation*/
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+/* BODY */
+
+
+
+/* JUMP */
+h5 {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+h5 span {
+  position: relative;
+  
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.3s ;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h5 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h5 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h5 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h5 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h5 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h5 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h5 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h5 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h5 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h5 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h5 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h5 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h5 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/*image*/
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+</style>
+</head>
+
+<body>
+ 
+
+<main class="container">
+<div style="color:white";>
+         <h5>
+		 <div>
+ 
+  </div> 
+		  
+  <span>W</span>
+  <span>E</span>
+  <span>B</span>
+  
+  <span>B</span>
+  <span>u</span>
+  <span>z</span>
+  <span>z</span>
+
+  
+  </h5>
+<h4><marquee style=" color: white;,margin-top:20px;"></marquee></h4>
+
+        </div>
+		
+  <header>
+    <nav class="navbar-menu">
+      
+      <!-- Menu normal -->
+      <ul class="menu ">
+  <li ><a>Home</a> </li>
+  
+  <li ><a>About Us</a>
+    <ul class="submenu three">
+      <li><a>Meet The Team</a></li>
+      <li><a>Document Library</a></li>
+	  
+    </ul>
+  </li>
+  <li><a>Contact</a></li>
+  
+      <li><a>Sign up</a></li>
+      <li><a>Log in</a></li>
+
+  </li>
+</ul>
+      
+      <!-- Mini Menu -->
+      <nav class="navbar-mini-menu">
+        <div class="menu-select">
+          <span class="menu-actual">
+            Menu
+          </span>
+          <span class="btn-select">
+            
+          </span>
+        </div>
+        <ul class="mini-menu-options">
+          <li><a>Home</a></li>
+          
+          <li tabIndex="0"><a>About us</a>
+            <ul class="submenu five">
+              <li><a>Meet The Team</a></li>
+              <li><a>Document Library</a></li>
+            </ul>
+          </li>
+          <li tabIndex="0"><a>Contact</a></li>
+          <li tabIndex="0"><a>Sign up</a>
+		   <li tabIndex="0"><a>Log in</a>
+            
+          </li>
+          
+        </ul> <!-- Fin lista mini menu -->
+      </nav> <!-- Fin mini menu -->
+      
+    </nav> <!-- Fin menu general (nav) -->
+  </header>
+  
+<h2>Fade in Overlay</h2>
+
+<div class="container1">
+  <img src="ima/musta.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Hello World</div>
+  </div>
+</div>
+ 
+  <div class="jquery-script-ads" align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/">
+</script></div>
+</main>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(document).on("ready",function() {
+  // 0 = hide, 1 = visible
+  var menuState = 0;
+  //if($(".mini-menu-options").is(":hidden")) {
+    /* Add a Click event listener to btn-select */
+    $(".btn-select").on("click",function() {
+      if(menuState === 0) {
+        $(".mini-menu-options").slideDown("slow");
+        menuState = 1;
+      } else {
+        $(".mini-menu-options").slideUp("slow");
+        menuState = 0;
+      }
+    });
+  //}
+  $(".mini-menu-options li").on("click", function() {
+    var numHijos = $(this).children().length;
+    if(numHijos < 2) {
+      // hide the menu
+      $(".mini-menu-options").hide("fast");
+
+      var texto = $(this).text();
+
+      $(".menu-select .menu-actual").text(texto);
+    }
+    menuState = 0;
+  });
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+  
+  
+  
+  
+
+
+
+</script>
+
+</body>
+</html>
